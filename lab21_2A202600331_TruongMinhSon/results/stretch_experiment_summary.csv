@@ -1,0 +1,2 @@
+label,rank,alpha,target_modules,trainable_params,trainable_pct,train_time_min,peak_vram_gb,eval_loss,eval_perplexity,adapter_path,loss_log_path
+r16_all_layers,16,32,"q_proj,k_proj,v_proj,o_proj,gate_proj,up_proj,down_proj",29933568,1.731659174973876,5.574125146865844,2.698436608,1.4854970395565033,4.4171603706745834,lab21_submission/adapters/r16_all_layers,lab21_submission/results/loss_log_r16_all_layers.csv

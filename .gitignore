@@ -203,6 +203,15 @@ cython_debug/
 # Temporary file for partial code execution
 tempCodeRunnerFile.py
 
+# Lab 21 local training artifacts / model weights
+lab21_*/adapters/
+**/adapters/
+*.safetensors
+*.bin
+*.pt
+*.pth
+*.gguf
+
 # Ruff stuff:
 .ruff_cache/
 

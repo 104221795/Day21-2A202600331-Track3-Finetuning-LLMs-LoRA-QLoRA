@@ -1,0 +1,5 @@
+label,rank,alpha,target_modules,trainable_params,trainable_pct,train_time_min,peak_vram_gb,eval_loss,eval_perplexity,adapter_path,loss_log_path
+base,base,-,-,0,0.0,0.0,,1.835039460659027,6.265381376635907,-,-
+r8,8,16,"q_proj,v_proj",1843200,0.10839063986607735,5.396419914563497,3.09976832,1.5478410243988037,4.701309206017857,lab21_submission/adapters/r8,lab21_submission/results/loss_log_r8.csv
+r16,16,32,"q_proj,v_proj",3686400,0.2165465635263405,5.109730676809947,2.385334272,1.5092485815286636,4.523330602823971,lab21_submission/adapters/r16,lab21_submission/results/loss_log_r16.csv
+r64,64,128,"q_proj,v_proj",14745600,0.8605954842642506,5.021164707342783,2.518376448,1.4767973482608796,4.378899110936071,lab21_submission/adapters/r64,lab21_submission/results/loss_log_r64.csv
